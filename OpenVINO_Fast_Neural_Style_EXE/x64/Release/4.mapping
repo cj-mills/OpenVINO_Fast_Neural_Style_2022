@@ -1,0 +1,335 @@
+<?xml version="1.0"?>
+<mapping>
+	<map>
+		<framework name="input.1" output_port_id="input.1" />
+		<IR name="input.1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="input" output_port_id="input" />
+		<IR name="input" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="conv1.conv2d.weight" output_port_id="conv1.conv2d.weight" />
+		<IR name="conv1.conv2d.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="input.4" output_port_id="input.4" />
+		<IR name="input.4" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="input.8" output_port_id="input.8" />
+		<IR name="input.8" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="input.12" output_port_id="input.12" />
+		<IR name="input.12" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="input.16" output_port_id="input.16" />
+		<IR name="input.16" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="conv2.conv2d.weight" output_port_id="conv2.conv2d.weight" />
+		<IR name="conv2.conv2d.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="input.20" output_port_id="input.20" />
+		<IR name="input.20" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="input.24" output_port_id="input.24" />
+		<IR name="input.24" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="input.28" output_port_id="input.28" />
+		<IR name="input.28" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="input.32" output_port_id="input.32" />
+		<IR name="input.32" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="conv3.conv2d.weight" output_port_id="conv3.conv2d.weight" />
+		<IR name="conv3.conv2d.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="input.36" output_port_id="input.36" />
+		<IR name="input.36" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="input.40" output_port_id="input.40" />
+		<IR name="input.40" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="input.44" output_port_id="input.44" />
+		<IR name="input.44" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="onnx::Conv_318" output_port_id="onnx::Conv_318" />
+		<IR name="onnx::Conv_318" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="input.52" output_port_id="input.52" />
+		<IR name="input.52" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="input.56" output_port_id="input.56" />
+		<IR name="input.56" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="input.60" output_port_id="input.60" />
+		<IR name="input.60" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="input.64" output_port_id="input.64" />
+		<IR name="input.64" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="onnx::Conv_321" output_port_id="onnx::Conv_321" />
+		<IR name="onnx::Conv_321" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="input.72" output_port_id="input.72" />
+		<IR name="input.72" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="input.76" output_port_id="input.76" />
+		<IR name="input.76" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="onnx::Add_189" output_port_id="onnx::Add_189" />
+		<IR name="onnx::Add_189" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="input.80" output_port_id="input.80" />
+		<IR name="input.80" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="onnx::Conv_324" output_port_id="onnx::Conv_324" />
+		<IR name="onnx::Conv_324" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="input.88" output_port_id="input.88" />
+		<IR name="input.88" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="input.92" output_port_id="input.92" />
+		<IR name="input.92" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="input.96" output_port_id="input.96" />
+		<IR name="input.96" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="input.100" output_port_id="input.100" />
+		<IR name="input.100" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="onnx::Conv_327" output_port_id="onnx::Conv_327" />
+		<IR name="onnx::Conv_327" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="input.108" output_port_id="input.108" />
+		<IR name="input.108" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="input.112" output_port_id="input.112" />
+		<IR name="input.112" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="onnx::Add_199" output_port_id="onnx::Add_199" />
+		<IR name="onnx::Add_199" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="input.116" output_port_id="input.116" />
+		<IR name="input.116" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="onnx::Conv_330" output_port_id="onnx::Conv_330" />
+		<IR name="onnx::Conv_330" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="input.124" output_port_id="input.124" />
+		<IR name="input.124" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="input.128" output_port_id="input.128" />
+		<IR name="input.128" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="input.132" output_port_id="input.132" />
+		<IR name="input.132" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="input.136" output_port_id="input.136" />
+		<IR name="input.136" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="onnx::Conv_333" output_port_id="onnx::Conv_333" />
+		<IR name="onnx::Conv_333" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="input.144" output_port_id="input.144" />
+		<IR name="input.144" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="input.148" output_port_id="input.148" />
+		<IR name="input.148" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="onnx::Add_209" output_port_id="onnx::Add_209" />
+		<IR name="onnx::Add_209" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="input.152" output_port_id="input.152" />
+		<IR name="input.152" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="onnx::Conv_336" output_port_id="onnx::Conv_336" />
+		<IR name="onnx::Conv_336" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="input.160" output_port_id="input.160" />
+		<IR name="input.160" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="input.164" output_port_id="input.164" />
+		<IR name="input.164" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="input.168" output_port_id="input.168" />
+		<IR name="input.168" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="input.172" output_port_id="input.172" />
+		<IR name="input.172" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="onnx::Conv_339" output_port_id="onnx::Conv_339" />
+		<IR name="onnx::Conv_339" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="input.180" output_port_id="input.180" />
+		<IR name="input.180" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="input.184" output_port_id="input.184" />
+		<IR name="input.184" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="onnx::Add_219" output_port_id="onnx::Add_219" />
+		<IR name="onnx::Add_219" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="input.188" output_port_id="input.188" />
+		<IR name="input.188" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="onnx::Conv_342" output_port_id="onnx::Conv_342" />
+		<IR name="onnx::Conv_342" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="input.196" output_port_id="input.196" />
+		<IR name="input.196" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="input.200" output_port_id="input.200" />
+		<IR name="input.200" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="input.204" output_port_id="input.204" />
+		<IR name="input.204" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="input.208" output_port_id="input.208" />
+		<IR name="input.208" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="onnx::Conv_345" output_port_id="onnx::Conv_345" />
+		<IR name="onnx::Conv_345" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="input.216" output_port_id="input.216" />
+		<IR name="input.216" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="input.220" output_port_id="input.220" />
+		<IR name="input.220" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="onnx::Add_229" output_port_id="onnx::Add_229" />
+		<IR name="onnx::Add_229" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="x" output_port_id="x" />
+		<IR name="x" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="onnx::Resize_362" output_port_id="onnx::Resize_362" />
+		<IR name="onnx::Resize_362" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="input.224" output_port_id="input.224" />
+		<IR name="input.224" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="input.228" output_port_id="input.228" />
+		<IR name="input.228" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="deconv1.conv2d.weight" output_port_id="deconv1.conv2d.weight" />
+		<IR name="deconv1.conv2d.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="input.232" output_port_id="input.232" />
+		<IR name="input.232" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="input.236" output_port_id="input.236" />
+		<IR name="input.236" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="x.3" output_port_id="x.3" />
+		<IR name="x.3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="onnx::Resize_368" output_port_id="onnx::Resize_368" />
+		<IR name="onnx::Resize_368" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="input.240" output_port_id="input.240" />
+		<IR name="input.240" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="input.244" output_port_id="input.244" />
+		<IR name="input.244" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="deconv2.conv2d.weight" output_port_id="deconv2.conv2d.weight" />
+		<IR name="deconv2.conv2d.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="input.248" output_port_id="input.248" />
+		<IR name="input.248" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="input.252" output_port_id="input.252" />
+		<IR name="input.252" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="input.256" output_port_id="input.256" />
+		<IR name="input.256" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="input.260" output_port_id="input.260" />
+		<IR name="input.260" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="deconv3.conv2d.weight" output_port_id="deconv3.conv2d.weight" />
+		<IR name="deconv3.conv2d.weight" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="316" output_port_id="316" />
+		<IR name="316" output_port_id="2" />
+	</map>
+</mapping>
